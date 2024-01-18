@@ -22,84 +22,30 @@ const links = [
 ];
 const projects = [
   {
-    title: "weather App",
-    address: "https://weatherfor-u.netlify.app/",
+    title: "Shopping Cart",
+    address: "https://app.netlify.com/sites/sprightly-stardust-5cad64/",
     id: 1,
-    desc: "A weather application done where users can check for the current weather and also the weather forecast using openweather api",
-    stack: ["TailwindCSS", "ReactJS"],
-    img: "/weatherapp.png",
-    git: "https://github.com/sonio-deji/weather-app",
+    desc: "A shopping cart website ",
+    stack: ["SCSS", "ReactJS"],
+    git: "https://github.com/abquad1/https---github.com-abquad1-shoppingCart.git",
   },
   {
-    title: "JS calculator",
-    address: "https://calculatorfor-u.netlify.app/",
+    title: "Chat App",
+    address: "https://tranquil-kitten-8bb992.netlify.app/",
     id: 2,
-    desc: "A JavaScript web calculator",
-    stack: ["ReactJS"],
-    img: "/calculator.png",
-    git: "https://github.com/sonio-deji/calculator",
+    desc: "A chat app which contain all other social media app",
+    stack: ["SCSS,ReactJS"],
+    git: "https://github.com/abquad1/https---github.com-abquad1-beepers.git",
   },
   {
-    title: "Reservation App",
-    address: "https://sonio-booking-app.netlify.app/",
+    title: "Computer hardware troubleshooting app",
+    address: "https://stellar-gingersnap-9b7ee1.netlify.app/",
     id: 3,
-    desc: "A clone of booking.com website",
+    desc: "A computer hardware troubleshooting app for laptop, printer and desktop",
     stack: ["CSS", "ReactJS"],
-    img: "/booking.png",
-    git: "https://github.com/sonio-deji/bookingapp",
+    git: "https://github.com/abquad1/ITsystem",
   },
-  {
-    title: "Todo App",
-    address: "https://sonio-todoapp.netlify.app/",
-    id: 4,
-    desc: "A full stack web todolist application where users can CREATE, READ, UPDATE AND DELETE todo",
-    stack: ["CSS", "ReactJS", "MongoDB", "NodeJS", "express"],
-    img: "/todo.png",
-    git: "https://github.com/sonio-deji/todolist",
-  },
-  {
-    title: "Fiber",
-    address: "https://fiber-clone-sonio.netlify.app/",
-    id: 5,
-    desc: "A clone of fiber.com website",
-    stack: ["CSS", "nextJS"],
-    img: "/fiber.png",
-    git: "https://github.com/sonio-deji/fiber",
-  },
-  {
-    title: "countries",
-    address: "https://countriesapp-api.netlify.app/",
-    id: 6,
-    desc: "A web app that utilizes and API to show list of countries and the details about each countries when the user clicks on the specific country, users can also filter by region and search for a country, it also includes a darkmode toggle",
-    stack: ["tailwind", "ReactJS"],
-    img: "/countries.png",
-    git: "https://github.com/sonio-deji/countries",
-  },
-  {
-    title: "E-Commerce",
-    address: "https://sonio-jsstore.netlify.app/",
-    id: 7,
-    desc: "A small full stack e-commerce store where users can add to cart, delete from cart and update cart. It was built using redux, styled-component, materialUI and react for the frontend, nodeJS, mongodb for the backend. it also utilizes some backend libraries like JWT to assign and verify token, nodemailer, cryptoJS for password for encryption",
-    stack: [
-      "Styled-components",
-      "ReactJS",
-      "nodeJS",
-      "mongodb",
-      "express",
-      "JWT",
-    ],
-    img: "/ecommerce.png",
-    git: "https://github.com/sonio-deji/e-commerce-app",
-  },
-  {
-    title: "music app",
-    address: "https://musica-app-sn.netlify.app/",
-    id: 8,
-    desc: "A website for streaming music",
-    stack: ["Styled-components", "ReactJS"],
-    img: "/music.png",
-    git: "https://github.com/sonio-deji/musicapp",
-  },
+ 
 ];
 const itemVariants = {
   closed: {
@@ -159,13 +105,13 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Atanda Uthman</title>
-        <meta name="description" content="Portfolio app for Atanda Uthman" />
+        <title>Abdulrahmon Quadri</title>
+        <meta name="description" content="Portfolio app for Abdulrahmon Quadri" />
       </Head>
       <div ref={ref} className="max-w-5xl mx-auto p-4 sm:p-8 bg-[#fbfbfe]">
         <div className="flex justify-between items-center sticky top-0 z-10 h-14">
           <div className="text-extrabold text-xl font-bold text-black">
-            Sonio
+            Quadri
           </div>
           <div className="justify-around w-96 hidden sm:flex">
             {links.map((link) => (
@@ -204,7 +150,7 @@ export default function Home() {
             <div className="flex justify-between flex-col h-48">
               <a
                 target="_blank"
-                href="https://linkedin.com/mwlite/atanda-uthman-4229042lb"
+                href="https://linkedin.com/in/abdulrahmon-quadri"
                 className="text-blue-500"
                 rel="noreferrer noopener"
               >
@@ -212,7 +158,7 @@ export default function Home() {
               </a>
               <a
                 target="_blank"
-                href="https://github.com/sonio-deji"
+                href="https://github.com/abquad1"
                 rel="noreferrer noopener"
                 className="text-blue-500"
               >
@@ -220,7 +166,7 @@ export default function Home() {
               </a>
               <a
                 target="_blank"
-                href="https://twitter.com/sonio_deji"
+                href="https://twitter.com/callmhe_haybee"
                 rel="noreferrer noopener"
                 className="text-blue-500"
               >
@@ -229,7 +175,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col h-56 justify-between">
               <div className="text-2xl sm:text-4xl font-extrabold text-gray-600">
-                HI, I&apos;m Adedeji
+                HI, I&apos;m Abdulrahmon
               </div>
               <div className="text-light font-bold text-gray-500">
                 <Typewriter
@@ -238,7 +184,7 @@ export default function Home() {
                       .typeString("Front-end dev")
                       .pauseFor(1000)
                       .deleteAll()
-                      .typeString("REACT/ NEXTJS")
+                      .typeString("REACTJS")
                       .deleteAll()
                       .typeString("HTML, CSS AND JS")
                       .start();
@@ -251,7 +197,7 @@ export default function Home() {
               </div>
               <div className="text-light font-bold text-gray-500">
                 High level experience in web development using frontend
-                libraries like ReactJS and SSR frameworks like NEXTJS
+                libraries like ReactJS 
               </div>
               <div className="flex justify-between items-center">
                 <a
@@ -260,14 +206,14 @@ export default function Home() {
                 >
                   Contact me <NavigateNext className={styles.nav} />
                 </a>
-                <a
+                {/* <a
                   href="https://docs.google.com/document/d/1QT7GNtYgRGKla1e_YDwJmDjk17PCbB_X/edit?usp=drivesdk&ouid=116994626900130378795&rtpof=true&sd=true"
                   target="_blank"
                   rel="noreferrer noopener"
                   className={`font-bold text-md sm:text-xl bg-blue-500 text-white rounded-md p-1 sm:p-4 w-fit ${styles.contact}`}
                 >
                   Download CV
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -288,8 +234,8 @@ export default function Home() {
             <div>
               <p className="font-bold text-md sm:text-lg text-gray-500 ">
                 I am a passionate Frontend web/app designer proficient in the
-                use of HTML, CSS, JavaScript and nodeJS including frontend
-                frameworks and libraries and an aspiring full-stack developer
+                use of HTML, CSS, JavaScript including frontend
+                frameworks and libraries and an aspiring frontend developer
                 with the aim of bringing ideas to life digitally. I&apos;m
                 always curious and I really love to find out the
                 &lsquo;Why&rsquo; of things and concepts. I&apos;m very well
@@ -310,7 +256,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div>
-                  <div className="font-bold text-xl text-gray-600">10+</div>
+                  <div className="font-bold text-xl text-gray-600">3+</div>
                   <p className="font-light text-md text-gray-500">
                     Projects completed
                   </p>
@@ -322,20 +268,13 @@ export default function Home() {
 
         <div className=" w-full" id="works">
           <div className="flex gap-5 flex-wrap w-full items-center justify-center lg:justify-between">
-            {projects.map(({ title, id, address, img, desc, git }) => (
+            {projects.map(({ title, id, address, desc, git }) => (
               <motion.div
                 whileHover={{ scale: 1.0 }}
                 key={id}
-                className={`rounded-lg cursor-pointer w-[400px] ${styles.top} p-4 h-[700px]`}
+                className={`rounded-lg cursor-pointer w-[400px] ${styles.top} p-4 h-[300px]`}
               >
-                <Image
-                  src={img}
-                  width="100%"
-                  height="100%"
-                  objectFit="contain"
-                  layout="responsive"
-                  alt={id}
-                />
+               
                 <h1 className="text-gray-600 font-bold text-lg">{title}</h1>
                 <p className="text-gray mb-5">{desc}</p>
 
@@ -401,33 +340,8 @@ export default function Home() {
                   alt="logo"
                 />
               </motion.li>
-              <motion.li whileHover={{ scale: 1.1 }} className="">
-                <Image
-                  src="/node.png"
-                  width="100%"
-                  height="100%"
-                  className="rounded-[50%]"
-                  alt="logo"
-                />
-              </motion.li>
-              <motion.li whileHover={{ scale: 1.1 }} className="">
-                <Image
-                  src="/1200px-nextjs-logo.svg.png"
-                  width="100%"
-                  height="100%"
-                  className="rounded-[50%]"
-                  alt="logo"
-                />
-              </motion.li>
-              <motion.li whileHover={{ scale: 1.1 }} className="">
-                <Image
-                  src="/mongo.png"
-                  width="50%"
-                  height="50%"
-                  className="rounded-[50%]"
-                  alt="logo"
-                />
-              </motion.li>
+              
+             
               <motion.li whileHover={{ scale: 1.1 }} className="">
                 <Image
                   src="/github.png"
@@ -454,7 +368,7 @@ export default function Home() {
                     className="flex items-center justify-between"
                     target="_blank"
                     rel="noreferrer noopener"
-                    href="https://www.instagram.com/sonio_deji"
+                    href="https://www.instagram.com/its_abdulquadri"
                   >
                     {" "}
                     <Instagram /> Instagram
@@ -465,7 +379,7 @@ export default function Home() {
                     className="flex items-center justify-between"
                     rel="noreferrer noopener"
                     target="_blank"
-                    href="https://twitter.com/sonio_deji"
+                    href="https://twitter.com/callmhe_haybee"
                   >
                     <Twitter /> Twitter
                   </a>
@@ -474,7 +388,7 @@ export default function Home() {
                   <a
                     target="_blank"
                     rel="noreferrer noopener"
-                    href="mailto:atandauthman2@gmail.com"
+                    href="mailto:abiodunq59@gmail.com"
                   >
                     @send a mail
                   </a>
@@ -484,7 +398,7 @@ export default function Home() {
                     className="flex items-center justify-between"
                     target="_blank"
                     rel="noreferrer noopener"
-                    href="tel:+243-811-773-0982"
+                    href="tel:+243-814-396-7609"
                   >
                     <Phone />
                     Call ME
