@@ -43,8 +43,32 @@ const projects = [
     id: 3,
     desc: "A computer hardware troubleshooting app for laptop, printer and desktop",
     stack: ["CSS", "ReactJS"],
-    git: "https://github.com/abquad1/ITsystem",
+    git: "https://github.com/abquad1/ITsystem.git",
   },
+  {
+    title: "Home Rentals app",
+    address: "https://rental-agent.netlify.app/",
+    id: 4,
+    desc: "A rental service app to rent and buy affordable houses",
+    stack: ["TailwindCSS", "NextJS"],
+    git: "https://github.com/abquad1/portfolio.git",
+  },
+  {
+    title: "Laundry Service app",
+    address: "https://laundaryservice.netlify.app/",
+    id: 5,
+    desc: "An online app to book delivery date for laundry services",
+    stack: ["InlineCSS", "HTML", "JavaScript"],
+    git: "https://github.com/abquad1/laundaryService.git",
+  },
+  {
+    title: "Quiz Game app",
+    address: "https://aquizgame.netlify.app/",
+    id: 5,
+    desc: "An online quiz game app where you pick an answer from four available options and you get your total scorer at the end of the quiz",
+    stack: ["InlineCSS", "HTML", "JavaScript"],
+    git: "https://github.com/abquad1/Quiz-Game.git",
+  }
  
 ];
 const itemVariants = {
@@ -307,8 +331,8 @@ export default function Home() {
               <motion.li whileHover={{ scale: 1.1 }}>
                 <Image
                   src="/html.png"
-                  width="100%"
-                  height="100%"
+                  width="100"
+                  height="100"
                   className="rounded-[50%]"
                   alt="logo"
                 />
@@ -316,8 +340,8 @@ export default function Home() {
               <motion.li whileHover={{ scale: 1.1 }} className="">
                 <Image
                   src="/css.png"
-                  width="100%"
-                  height="100%"
+                  width="100"
+                  height="100"
                   className="rounded-[50%]"
                   alt="logo"
                 />
@@ -325,8 +349,8 @@ export default function Home() {
               <motion.li whileHover={{ scale: 1.1 }} className=" rounded-lg">
                 <Image
                   src="/javaScript-logo.png"
-                  width="100%"
-                  height="100%"
+                  width="100"
+                  height="100"
                   className="rounded-[50%]"
                   alt="logo"
                 />
@@ -334,8 +358,8 @@ export default function Home() {
               <motion.li whileHover={{ scale: 1.1 }} className="">
                 <Image
                   src="/react.png"
-                  width="100%"
-                  height="100%"
+                  width="100"
+                  height="100"
                   className="rounded-[50%]"
                   alt="logo"
                 />
@@ -345,8 +369,8 @@ export default function Home() {
               <motion.li whileHover={{ scale: 1.1 }} className="">
                 <Image
                   src="/github.png"
-                  width="100%"
-                  height="100%"
+                  width="100"
+                  height="100"
                   className={`rounded-[50%]`}
                   alt="logo"
                 />
