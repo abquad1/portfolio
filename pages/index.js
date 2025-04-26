@@ -132,10 +132,12 @@ export default function Home() {
         <title>Abdulrahmon Quadri</title>
         <meta name="description" content="Portfolio app for Abdulrahmon Quadri" />
       </Head>
-      <div ref={ref} className="max-w-5xl mx-auto p-4 sm:p-8 bg-[#fbfbfe]">
+      <div ref={ref} className="max-w-5xl mx-auto p-4 sm:p-8 bg-orange-300">
+
+        {/* fbfbfe */}
         <div className="flex justify-between items-center sticky top-0 z-10 h-14">
-          <div className="text-extrabold text-xl font-bold text-black">
-            Quadri
+          <div className="text-extrabold text-3xl font-bold text-fuchsia-50 shadow-md shadow-black p-2">
+            AQ
           </div>
           <div className="justify-around w-96 hidden sm:flex">
             {links.map((link) => (
@@ -175,7 +177,7 @@ export default function Home() {
               <a
                 target="_blank"
                 href="https://linkedin.com/in/abdulrahmon-quadri"
-                className="text-blue-500"
+                className="text-stone-800"
                 rel="noreferrer noopener"
               >
                 <LinkedIn />
@@ -184,7 +186,7 @@ export default function Home() {
                 target="_blank"
                 href="https://github.com/abquad1"
                 rel="noreferrer noopener"
-                className="text-blue-500"
+                className="text-stone-800"
               >
                 <GitHub />
               </a>
@@ -192,16 +194,16 @@ export default function Home() {
                 target="_blank"
                 href="https://twitter.com/callmhe_haybee"
                 rel="noreferrer noopener"
-                className="text-blue-500"
+                className="text-stone-800"
               >
                 <Twitter />
               </a>
             </div>
             <div className="flex flex-col h-56 justify-between">
-              <div className="text-2xl sm:text-4xl font-extrabold text-gray-600">
+              <div className="text-2xl sm:text-4xl font-extrabold text-stone-800">
                 HI, I&apos;m Abdulrahmon
               </div>
-              <div className="text-light font-bold text-gray-500">
+              <div className="text-light font-bold text-stone-800">
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
@@ -219,14 +221,14 @@ export default function Home() {
                   }}
                 />
               </div>
-              <div className="text-light font-bold text-gray-500">
+              <div className="text-light font-bold text-stone-800">
                 High level experience in web development using frontend
                 libraries like ReactJS 
               </div>
               <div className="flex justify-between items-center">
                 <a
                   href="#contact"
-                  className={`font-bold text-md sm:text-xl bg-blue-500 text-white rounded-md p-1 sm:p-4 w-fit ${styles.contact}`}
+                  className={`font-bold text-md sm:text-xl bg-stone-700 text-white rounded-md p-1 sm:p-4 w-fit ${styles.contact}`}
                 >
                   Contact me <NavigateNext className={styles.nav} />
                 </a>
@@ -243,7 +245,7 @@ export default function Home() {
           </div>
           {showbutton && (
             <div
-              className="fixed right-3 cursor-pointer bottom-6 text-white p-5 bg-blue-500 z-30 rounded-lg"
+              className="fixed right-3 cursor-pointer bottom-6 text-white p-5 bg-stone-800 z-30 rounded-lg"
               onClick={goToTop}
             >
               <ArrowUpward />
@@ -251,12 +253,12 @@ export default function Home() {
           )}
         </div>
         <div className="h-fit mb-16" id="about">
-          <div className="font-extrabold text-2xl sm:text-3xl text-gray-500 mb-10 sm:mb-36">
+          <div className="font-extrabold text-2xl sm:text-3xl text-stone-800 mb-10 sm:mb-36">
             ABOUT ME
           </div>
-          <div className={`flex justify-between ${styles.about}`}>
-            <div>
-              <p className="font-bold text-md sm:text-lg text-gray-500 ">
+          <div className={` flex justify-between ${styles.about}`}>
+            <div className="p-4">
+              <p className="font-bold text-md sm:text-lg text-stone-800 ">
                 I am a passionate Frontend web/app designer proficient in the
                 use of HTML, CSS, JavaScript including frontend
                 frameworks and libraries and an aspiring frontend developer
@@ -272,16 +274,16 @@ export default function Home() {
                 as a landing page to big things like a fully functional
                 responsive web application.
               </p>
-              <div className="flex justify-between w-48 mt-9">
+              <div className="flex justify-between w-48 mt-9 gap-4">
                 <div>
-                  <div className="font-bold text-xl text-gray-600">03+</div>
-                  <p className="font-light text-md text-gray-500">
-                    Years experience
+                  <div className="font-bold text-2xl text-fuchsia-50 ">03+</div>
+                  <p className="font-bold text-xl text-stone-800">
+                    Years Experience
                   </p>
                 </div>
                 <div>
-                  <div className="font-bold text-xl text-gray-600">3+</div>
-                  <p className="font-light text-md text-gray-500">
+                  <div className="font-bold text-2xl text-fuchsia-50">3+</div>
+                  <p className="font-bold text-xl text-stone-800">
                     Projects completed
                   </p>
                 </div>
@@ -299,12 +301,12 @@ export default function Home() {
                 className={`rounded-lg cursor-pointer w-[400px] ${styles.top} p-4 h-[300px]`}
               >
                
-                <h1 className="text-gray-600 font-bold text-lg">{title}</h1>
+                <h1 className="text-stone-800 font-bold text-lg">{title}</h1>
                 <p className="text-gray mb-5">{desc}</p>
 
                 <div>
                   <a
-                    className={` text-gray-600 mr-5 ${styles.top}`}
+                    className={` text-fuchsia-50 mr-5 ${styles.top}`}
                     target={"_blank"}
                     href={git}
                     rel="noreferrer noopener"
@@ -313,7 +315,7 @@ export default function Home() {
                     <GitHub />{" "}
                   </a>
                   <a
-                    className={` text-gray-600 ${styles.top}`}
+                    className={` text-fuchsia-50 ${styles.top}`}
                     target="_blank"
                     rel="noreferrer noopener"
                     href={address}
@@ -379,7 +381,7 @@ export default function Home() {
           </div>
         </div>
         <div className="h-screen w-full" id="contact">
-          <div className="flex items-center justify-center h-full flex-col text-gray-600">
+          <div className="flex items-center justify-center h-full flex-col text-stone-800">
             <div className="text-center">
               <h3 className="text-3xl font-bold">
                 LET&apos;S WORK TOGETHER...
@@ -395,7 +397,7 @@ export default function Home() {
                     href="https://www.instagram.com/its_abdulquadri"
                   >
                     {" "}
-                    <Instagram /> Instagram
+                    <Instagram className="font-bold text-fuchsia-50"/> Instagram
                   </a>
                 </motion.li>
                 <motion.li whileHover={{ scale: 1.1 }} className="pt-5">
@@ -405,7 +407,7 @@ export default function Home() {
                     target="_blank"
                     href="https://twitter.com/callmhe_haybee"
                   >
-                    <Twitter /> Twitter
+                    <Twitter className="font-bold text-fuchsia-50"/> Twitter
                   </a>
                 </motion.li>
                 <motion.li whileHover={{ scale: 1.1 }} className="pt-5">
@@ -424,7 +426,7 @@ export default function Home() {
                     rel="noreferrer noopener"
                     href="tel:+243-814-396-7609"
                   >
-                    <Phone />
+                    <Phone className="font-bold text-fuchsia-50"/>
                     Call ME
                   </a>
                 </motion.li>

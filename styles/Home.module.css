@@ -1,11 +1,11 @@
 .about {
     border-radius: 1rem;
-    box-shadow: inset 5px 5px 10px #b5b5b5, inset -5px -5px 10px #fff;
+    box-shadow: inset 2px 2px 5px #110909, inset -5px -5px 10px #230202;
     padding: 10px;
 }
 .top {
     border-radius: .5rem;
-        box-shadow: 5px 5px 10px #b5b5b5, -5px -5px 10px #fff;
+        box-shadow: 2px 2px 5px #110909, -5px -5px 10px #230202;
         padding: 10px;
 }
 
@@ -14,5 +14,5 @@
     transition: all 0.5s ease-in-out;
 }
 .sidebar {
-    box-shadow: inset 5px 5px 10px #b5b5b5, inset -5px -5px 10px #fff;
+    box-shadow: inset 2px 2px 5px #b5b5b5, inset -5px -5px 10px #fff;
 }
