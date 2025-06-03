@@ -31,19 +31,19 @@ const projects = [
   },
   {
     title: "Chat App",
-    address: "https://tranquil-kitten-8bb992.netlify.app/",
+    address: "https://beeperslanding.vercel.app/",
     id: 2,
     desc: "A chat app which contain all other social media app",
     stack: ["SCSS,ReactJS"],
-    git: "https://github.com/abquad1/https---github.com-abquad1-beepers.git",
+    git: "https://github.com/abquad1/beeperslanding.git",
   },
   {
-    title: "Computer hardware troubleshooting app",
-    address: "https://stellar-gingersnap-9b7ee1.netlify.app/",
+    title: "Innovative Farmers App",
+    address: "https://innovativefarmers.vercel.app/",
     id: 3,
-    desc: "A computer hardware troubleshooting app for laptop, printer and desktop",
-    stack: ["CSS", "ReactJS"],
-    git: "https://github.com/abquad1/ITsystem.git",
+    desc: "An Innovative Farmers App",
+    stack: ["CSS", "NextJS"],
+    git: "",
   },
   {
     title: "Home Rentals app",
@@ -64,10 +64,26 @@ const projects = [
   {
     title: "Quiz Game app",
     address: "https://aquizgame.netlify.app/",
-    id: 5,
+    id: 6,
     desc: "An online quiz game app where you pick an answer from four available options and you get your total scorer at the end of the quiz",
     stack: ["InlineCSS", "HTML", "JavaScript"],
     git: "https://github.com/abquad1/Quiz-Game.git",
+  },
+  {
+    title: "A mini Ecommerce website",
+    address: "https://products-orpin-one.vercel.app/",
+    id: 7,
+    desc: "An Ecommerce website where you can order male and female products and accesories by adding them to carts",
+    stack: ["TailwindCSS", "NextJs"],
+    git: "https://github.com/abquad1/products.git",
+  },
+  {
+    title: "A Desktop User Management Dashboard",
+    address: "https://products-orpin-one.vercel.app/",
+    id: 8,
+    desc: "A management User Dashboard that shows the statistics of all the users, that runs only on desktop",
+    stack: ["TailwindCSS", "NextJs"],
+    git:"",
   }
  
 ];
@@ -138,7 +154,7 @@ export default function Home() {
         <div className="flex justify-between items-center sticky top-0 z-10 h-14">
           <div className="text-extrabold text-3xl font-bold text-fuchsia-50 shadow-md shadow-black p-2">
             AQ
-          </div>
+          </div>   
           <div className="justify-around w-96 hidden sm:flex">
             {links.map((link) => (
               <a
@@ -149,9 +165,9 @@ export default function Home() {
                 {link.name}
               </a>
             ))}
-          </div>
+          </div>    
           <div className="sm:hidden" id="click">
-            <motion.svg
+            <motion.svg    
               whileHover={{ scale: 1.1 }}
               variants={itemVariants}
               onClick={setmenu}
@@ -225,7 +241,7 @@ export default function Home() {
                 High level experience in web development using frontend
                 libraries like ReactJS 
               </div>
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center">         
                 <a
                   href="#contact"
                   className={`font-bold text-md sm:text-xl bg-stone-700 text-white rounded-md p-1 sm:p-4 w-fit ${styles.contact}`}
