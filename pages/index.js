@@ -235,7 +235,7 @@ export default function Home() {
                       .typeString("Front-end dev")
                       .pauseFor(1000)
                       .deleteAll()
-                      .typeString("REACTJS")
+                      .typeString("REACTJS, NextJS")
                       .deleteAll()
                       .typeString("HTML, CSS AND JS")
                       .start();
