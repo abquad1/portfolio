@@ -54,12 +54,12 @@ const projects = [
     git: "https://github.com/abquad1/portfolio.git",
   },
   {
-    title: "Laundry Service app",
-    address: "https://laundaryservice.netlify.app/",
+    title: "Mini Ecommerce app",
+    address: "https://circle-wheat-three.vercel.app/",
     id: 5,
-    desc: "An online app to book delivery date for laundry services",
-    stack: ["InlineCSS", "HTML", "JavaScript"],
-    git: "https://github.com/abquad1/laundaryService.git",
+    desc: "An online app to order your meals",
+    stack: ["TailwindCSS", "Nextjs", "Redux"],
+    git: "https://github.com/abquad1/circle.git",
   },
   {
     title: "Quiz Game app",
@@ -84,6 +84,14 @@ const projects = [
     desc: "A management User Dashboard that shows the statistics of all the users, that runs only on desktop",
     stack: ["TailwindCSS", "NextJs"],
     git:"",
+  },
+  {
+    title: "A logistics web app ",
+    address: "https://hhlogistics.vercel.app/",
+    id: 9,
+    desc: "A logistics app where you can book your delivery",
+    stack: ["TailwindCSS", "NextJs","Firebase"],
+    git:"https://github.com/abquad1/hhlogistics.git",
   }
  
 ];
@@ -125,6 +133,7 @@ export default function Home() {
   const goToTop = () => {
     window.scrollTo({
       top: 0,
+      behavior: "smooth",
     });
   };
   useEffect(() => {
