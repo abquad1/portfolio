@@ -70,7 +70,7 @@ const projects = [
     git: "https://github.com/abquad1/Quiz-Game.git",
   },
   {
-    title: "A mini Ecommerce website",
+    title: "A Ecommerce website",
     address: "https://products-orpin-one.vercel.app/",
     id: 7,
     desc: "An Ecommerce website where you can order male and female products and accesories by adding them to carts",
@@ -79,20 +79,21 @@ const projects = [
   },
   {
     title: "A Desktop User Management Dashboard",
-    address: "https://products-orpin-one.vercel.app/",
+    address: "https://admin-dashboard-uk.vercel.app/",
     id: 8,
     desc: "A management User Dashboard that shows the statistics of all the users, that runs only on desktop",
     stack: ["TailwindCSS", "NextJs"],
-    git:"",
+    git:"https://admin-dashboard-uk.vercel.app/",
   },
   {
-    title: "A logistics web app ",
-    address: "https://hhlogistics.vercel.app/",
+    title: "Fashion Design Webapp ",
+    address: "https://twiniestylez.vercel.app/",
     id: 9,
-    desc: "A logistics app where you can book your delivery",
-    stack: ["TailwindCSS", "NextJs","Firebase"],
-    git:"https://github.com/abquad1/hhlogistics.git",
-  }
+    desc: "A fashion design landing page where customers can check out styles inpo and contact the designer directly. The designer can also upload new styles and delete cuurent styles images",
+    stack: ["TailwindCSS", "NextJs"],
+    git:"https://github.com/abquad1/twiniestylez.git",
+  },
+  
  
 ];
 const itemVariants = {
@@ -257,14 +258,15 @@ export default function Home() {
                 >
                   Contact me <NavigateNext className={styles.nav} />
                 </a>
-                {/* <a
-                  href="https://docs.google.com/document/d/1QT7GNtYgRGKla1e_YDwJmDjk17PCbB_X/edit?usp=drivesdk&ouid=116994626900130378795&rtpof=true&sd=true"
+                 <a
+                  // href="https://docs.google.com/document/d/1QT7GNtYgRGKla1e_YDwJmDjk17PCbB_X/edit?usp=drivesdk&ouid=116994626900130378795&rtpof=true&sd=true"
+                  href="https://docs.google.com/document/d/1A2Qh_uYzCexr7c6hkD_3l9HCRAtXEsMmaQUW_GKkdVI/edit?tab=t.0"
                   target="_blank"
                   rel="noreferrer noopener"
                   className={`font-bold text-md sm:text-xl bg-blue-500 text-white rounded-md p-1 sm:p-4 w-fit ${styles.contact}`}
                 >
                   Download CV
-                </a> */}
+                </a> 
               </div>
             </div>
           </div>
