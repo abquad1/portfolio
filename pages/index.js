@@ -22,12 +22,12 @@ const links = [
 ];
 const projects = [
   {
-    title: "Shopping Cart",
-    address: "https://app.netlify.com/sites/sprightly-stardust-5cad64/",
+    title:"Ecommerce web app",
+    address: "https://beauty-rho-three.vercel.app/",
     id: 1,
-    desc: "A shopping cart website ",
-    stack: ["SCSS", "ReactJS"],
-    git: "https://github.com/abquad1/https---github.com-abquad1-shoppingCart.git",
+    desc: "A E-commerce website for beauty products and foostuffs ",
+    stack: ["Tailwind", "NextJS"],
+    git: "https://github.com/abquad1/beauty.git",
   },
   {
     title: "Chat App",
@@ -78,12 +78,12 @@ const projects = [
     git: "https://github.com/abquad1/products.git",
   },
   {
-    title: "A Desktop User Management Dashboard",
-    address: "https://admin-dashboard-uk.vercel.app/",
+    title: "A Web App chat with landing page",
+    address: "https://livechat-pearl.vercel.app/",
     id: 8,
-    desc: "A management User Dashboard that shows the statistics of all the users, that runs only on desktop",
+    desc: "A web app chat where multiple users can send realtime messages to eah other by creating and joining rooms",
     stack: ["TailwindCSS", "NextJs"],
-    git:"https://admin-dashboard-uk.vercel.app/",
+    git:"https://github.com/abquad1/livechat.git",
   },
   {
     title: "Fashion Design Webapp ",
@@ -259,7 +259,6 @@ export default function Home() {
                   Contact me <NavigateNext className={styles.nav} />
                 </a>
                  <a
-                  // href="https://docs.google.com/document/d/1QT7GNtYgRGKla1e_YDwJmDjk17PCbB_X/edit?usp=drivesdk&ouid=116994626900130378795&rtpof=true&sd=true"
                   href="https://docs.google.com/document/d/1A2Qh_uYzCexr7c6hkD_3l9HCRAtXEsMmaQUW_GKkdVI/edit?tab=t.0"
                   target="_blank"
                   rel="noreferrer noopener"
